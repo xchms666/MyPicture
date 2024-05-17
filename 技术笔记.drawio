@@ -1,9 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T08:01:55.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.2.1" etag="KOF0dRGyXg5puGI-aLk-" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T01:51:43.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="0IYpYgD-q4anTqihY42G" version="24.3.1" type="github">
   <diagram name="Page-1" id="F9cGyugt12f_GxPuB5CZ">
-    <mxGraphModel>
+    <mxGraphModel dx="2293" dy="2540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.417;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;shape=flexArrow;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-2" target="zKRAgoYs-fPMpbalxxMQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-2" value="外部谐波信号输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="250" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zKRAgoYs-fPMpbalxxMQ-8">
+          <mxGeometry width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zKRAgoYs-fPMpbalxxMQ-8" source="zKRAgoYs-fPMpbalxxMQ-3" target="zKRAgoYs-fPMpbalxxMQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-3" value="自动增益放大器ACG" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="zKRAgoYs-fPMpbalxxMQ-8">
+          <mxGeometry x="36" y="60" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-4" value="直流偏置加法器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zKRAgoYs-fPMpbalxxMQ-8">
+          <mxGeometry x="136" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-6" value="信号调理模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zKRAgoYs-fPMpbalxxMQ-8">
+          <mxGeometry x="92" y="20" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-10" target="zKRAgoYs-fPMpbalxxMQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="524" width="284" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-11" value="信号整形模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="333" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-12" value="整形前级放大电路" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="580" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-13" value="整形电路" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="zKRAgoYs-fPMpbalxxMQ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="345" as="sourcePoint" />
+            <mxPoint x="110" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-17" target="zKRAgoYs-fPMpbalxxMQ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-17" value="波形型号输出" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-5" target="zKRAgoYs-fPMpbalxxMQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-19" target="zKRAgoYs-fPMpbalxxMQ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="602" />
+              <mxPoint x="840" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-19" value="频率信号输出" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="682" y="572" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-12" target="zKRAgoYs-fPMpbalxxMQ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="630" as="sourcePoint" />
+            <mxPoint x="380" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="340" width="450" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-24" value="STM32F411CEU6&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-26" value="ADC处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-27" value="DFT分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-26" target="zKRAgoYs-fPMpbalxxMQ-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="530" as="sourcePoint" />
+            <mxPoint x="1100" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-34" value="显示屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-23" target="zKRAgoYs-fPMpbalxxMQ-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="560" as="sourcePoint" />
+            <mxPoint x="1380" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1400" y="475" />
+              <mxPoint x="1400" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-23" target="zKRAgoYs-fPMpbalxxMQ-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="500" as="sourcePoint" />
+            <mxPoint x="1520" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1400" y="475" />
+              <mxPoint x="1400" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-37" value="手机APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-38" value="蓝牙连接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="375" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-39" value="5V电源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-39" target="zKRAgoYs-fPMpbalxxMQ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="830" as="sourcePoint" />
+            <mxPoint x="650" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="378" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKRAgoYs-fPMpbalxxMQ-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKRAgoYs-fPMpbalxxMQ-39" target="zKRAgoYs-fPMpbalxxMQ-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="810" as="sourcePoint" />
+            <mxPoint x="1070" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1115" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
